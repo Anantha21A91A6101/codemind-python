@@ -1,6 +1,5 @@
 n=int(input())
 l=list()
-x=n
 m=0
 while n>0:
     r=n%10
