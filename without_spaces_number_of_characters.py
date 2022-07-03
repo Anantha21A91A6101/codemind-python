@@ -1,7 +1,9 @@
-a=input()
+n=input()
 c=0
-for i in a:
-    if i not in ' ':
+m=0
+for i in n:
+    if i in ' ':
+        m=m+1
+    else:
         c=c+1
 print(c)        
-        
