@@ -1,6 +1,6 @@
-a=input()
+n=input()
 c=0
-for i in a:
-    if i in '_!@#$%^&*()=[]{}:;.?+-/><""~`''\|':
+for i in n:
+    if i in "!~`@#$%^&*()_+{}[]:;/?>,.\|":
         c=c+1
-print(c)   
+print(c)        
