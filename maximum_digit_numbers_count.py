@@ -7,5 +7,4 @@ for i in a:
 for i in range(n):
     if a1[i]==max(a1):
         a2.append(a[i])
-print(*a2)    
-    
+print(*a2)        
