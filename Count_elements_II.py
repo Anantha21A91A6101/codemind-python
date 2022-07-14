@@ -1,13 +1,13 @@
-m,n=map(int,input().split())
+n,m=map(int,input().split())
 a=list(map(int,input().split()))
 b=list(map(int,input().split()))
-c=set(a)
+k=set(a)
 d=set(b)
-k=0
-for i in c:
+c=0
+for i in k:
     if i not in d:
-        k=k+1
+        c=c+1
 for i in d:
-    if i not in c:
-        k=k+1
-print(k)        
+    if i not in k:
+        c=c+1
+print(c)        
