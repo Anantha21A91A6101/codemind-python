@@ -12,8 +12,8 @@ if n%2!=0:
             m=m+1
     for j in range(len(a)-1,-1,-1):
         if k>l:
-            d.append(a[j])
-            l=l+1
+             d.append(a[j])
+             l=l+1
 else:
     for i in range(0,len(a)):
         if k>m:
@@ -21,8 +21,8 @@ else:
             m=m+1
     for j in range(len(a)-1,-1,-1):
         if k>l:
-            d.append(a[j])
-            l=l+1
+             d.append(a[j])
+             l=l+1
 i=0
 j=0
 while i<len(c) or j<len(d):
@@ -33,4 +33,4 @@ while i<len(c) or j<len(d):
         print(d[j],end=" ")
         j=j+1
 if n%2!=0:
-    print(0)
+    print("0")
