@@ -4,9 +4,7 @@ n=n.split()
 c=[]
 m=0
 s=[]
-for i in n:
-    for j in i:
-        c.append(j)
+c="".join(n)
 for i in range(0,len(c)):
     m=0
     for j in range(0,len(c)):
