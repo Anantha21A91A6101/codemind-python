@@ -1,6 +1,8 @@
 n=input()
 n=n.split()
-for i in range(0,len(n)):
-    k=ord(max(n[i]))
-    l=ord(min(n[i]))
+s=0
+d=0
+for i in n:
+    k=ord(max(i))
+    l=ord(min(i))
     print(abs(k-l),end=" ")
