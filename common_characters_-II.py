@@ -9,6 +9,7 @@ s2="".join(s2)
 c=[]
 m=0
 for i in s1:
+    m=0
     for j in s2:
         if i==j:
             c.append(i)
