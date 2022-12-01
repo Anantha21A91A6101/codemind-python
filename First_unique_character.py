@@ -1,16 +1,16 @@
-s=input()
+n=input()
+n=n.split()
+n="".join(n)
 c=0
 m=0
-for i in range(0,len(s)):
+for i in n:
     c=0
-    for j in range(0,len(s)):
-        if i!=j:
-            if s[i]==s[j]:
-                c=c+1
-    if c==0:
-         print(s[i])
-         m=1
-         break
+    for j in n:
+        if i==j:
+            c=c+1
+    if c==1:
+        print(i)
+        m=1
+        break
 if m==0:
     print("-1")
-            
