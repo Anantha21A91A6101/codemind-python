@@ -1,18 +1,20 @@
 n=input()
 n=n.lower()
 n=n.split()
-k='aeiou'
 c=[]
+k='aeiou'
+m=0
 d=[]
 for i in n:
     for j in i:
         if j in k:
-            d.append(j)
+            c.append(j)
 for i in k:
-    if i not in d:
-        c.append(i)
-if c==[]:
+    if i not in c:
+        d.append(i)
+        m=m+1
+if m==0:
     print("0")
 else:
-    k=sorted(c)
-    print(*k)
+    l=sorted(d)
+    print(*d)
