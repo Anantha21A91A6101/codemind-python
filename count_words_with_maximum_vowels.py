@@ -1,11 +1,11 @@
 n=input()
 n=n.split()
-c=0
 d=[]
+k=0
 for i in n:
     c=0
     for j in i:
-        if j in 'aeiouAEIOU':
+        if j in 'aeiouAIOUE':
             c=c+1
     d.append(c)
 if len(d)==1:
