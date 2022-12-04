@@ -2,7 +2,7 @@ n=input()
 n=n.split()
 c=[]
 s=0
-w=0
+m=0
 for i in n:
     for j in i:
         c.append(j)
@@ -13,5 +13,5 @@ for i in c:
         s=s+1
 for j in c:
     if j in l:
-        w=w+1
-print(k,s,l,w)
+        m=m+1
+print(k,s,l,m,end=" ")
